@@ -42,7 +42,7 @@ nav a:hover{
 }
 .titleiscentered{
     background-color: #FFEFE9;
-    height: 555px;
+    height: 600px;
     position: relative;
    
 }
@@ -98,7 +98,7 @@ nav a:hover{
 .okvirzaslike{
     display:flex;
     position: absolute;
-    right: 35%;
+    right: 33%;
     top:7%;
     width:200px;
 }
