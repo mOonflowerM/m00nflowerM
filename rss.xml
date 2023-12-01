@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
+    <item>
     <title>Sweets Dream</title>
     <link>https://moonflowerm.github.io/m00nflowerM/index.html</link>
     <description>Follow for our latest updates about us</description>
+    </item>
     <item>
     <title>Sweets Dream Menu</title>
     <link>https://moonflowerm.github.io/m00nflowerM/menu.html</link>
