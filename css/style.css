@@ -27,7 +27,6 @@ nav a{
     padding: 0px 26px;
     color:#A93223;
     margin-right: 10px;
-    transition: all 0.3s;
 }
 .logo img{
     margin:10px;
@@ -35,6 +34,7 @@ nav a{
 }
 nav a:hover{
     color:black;
+    transition: all 0.3s;
 }
 .active-page{
     color:black;
@@ -135,11 +135,11 @@ nav a:hover{
     margin: 30px;
     font-size: 20px;
     width: 30%;
-    transition:box-shadow 0.5s;
 
 }
 .offers:hover{
     box-shadow:5px 4px rgba(0,0,0,0.2);
+    transition:box-shadow 0.5s;
 }
 .offers p{
     text-transform: uppercase;
@@ -219,9 +219,7 @@ footer{
     
 }
 .futer{
-height:150px;
 text-align: center;
-width:96%;
 padding: 20px 0px;
 }
 .futer a{
@@ -256,7 +254,7 @@ text-align: center;
 }
 /*meni*/
 #menupicture, #slikacontact{
-    background-image: url("images/dryga.jpg");
+    background-image: url("../images/dryga.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -265,11 +263,10 @@ text-align: center;
 
 }
 #slikacontact{
-    /*background-image: linear-gradient(rgba(0,0,0,0.5)),url("images/cakeshop12.jpg");*/
     background-attachment: fixed;
 }
 #menucontainer{display: flex; justify-content: center; align-items: center;
-flex-direction: column; background-image: url("images/slikacontact.jpg"); background-attachment: fixed;background-position: center ; border-radius: 10px; background-size: 100% 100%;;}
+flex-direction: column; background-image: url("../images/slikacontact.jpg"); background-attachment: fixed;background-position: center ; border-radius: 10px; background-size: 100% 100%;;}
 .menu{
     display:flex;
     flex-direction: row;
